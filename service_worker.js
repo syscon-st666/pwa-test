@@ -3,7 +3,7 @@ var urlsToCache = [
     './pwa-test/',
 ];
 
-// ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«å‡¦ç†
+// ƒCƒ“ƒXƒg[ƒ‹ˆ—
 self.addEventListener('install', function(event) {
   // Perform install steps
   event.waitUntil(
@@ -15,7 +15,7 @@ self.addEventListener('install', function(event) {
   );
 });
 
-// ãƒªã‚½ãƒ¼ã‚¹ãƒ•ã‚§ãƒƒãƒæ™‚ã®ã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ­ãƒ¼ãƒ‰å‡¦ç†
+// ƒŠƒ\[ƒXƒtƒFƒbƒ`Žž‚ÌƒLƒƒƒbƒVƒ…ƒ[ƒhˆ—
 self.addEventListener('fetch', function(event) {
     event.respondWith(
         caches
