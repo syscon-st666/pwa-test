@@ -1,7 +1,7 @@
 //
 var CACHE_NAME = 'pwa-sample-caches';
 var urlsToCache = [
-    './pwa-test/',
+    '/syscon-st666.github.io/',
 ];
 
 // インストール処理
