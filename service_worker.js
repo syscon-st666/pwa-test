@@ -1,9 +1,10 @@
+//
 var CACHE_NAME = 'pwa-sample-caches';
 var urlsToCache = [
     './pwa-test/',
 ];
 
-// ƒCƒ“ƒXƒg[ƒ‹ˆ—
+// ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«å‡¦ç†
 self.addEventListener('install', function(event) {
   // Perform install steps
   event.waitUntil(
@@ -15,7 +16,7 @@ self.addEventListener('install', function(event) {
   );
 });
 
-// ƒŠƒ\[ƒXƒtƒFƒbƒ`Žž‚ÌƒLƒƒƒbƒVƒ…ƒ[ƒhˆ—
+// ãƒªã‚½ãƒ¼ã‚¹ãƒ•ã‚§ãƒƒãƒæ™‚ã®ã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ­ãƒ¼ãƒ‰å‡¦ç†
 self.addEventListener('fetch', function(event) {
     event.respondWith(
         caches
